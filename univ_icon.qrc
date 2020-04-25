@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/IDK">
+        <file>Resources/add.png</file>
+        <file>Resources/close.png</file>
+        <file>Resources/close_white.png</file>
+        <file>Resources/close_white_thick.png</file>
+        <file>Resources/edit.png</file>
+        <file>Resources/education.png</file>
+        <file>Resources/maximize.png</file>
+        <file>Resources/minimize.png</file>
+        <file>Resources/no.png</file>
+        <file>Resources/search.png</file>
+        <file>Resources/search_clr.png</file>
+        <file>Resources/warning.png</file>
+    </qresource>
+</RCC>

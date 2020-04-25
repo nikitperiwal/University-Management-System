@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="basic_icons">
+    <file>edit.png</file>
+    <file>close_white.png</file>
+    <file>maximize.png</file>
+    <file>no.png</file>
+    <file>minimize.png</file>
+    <file>warning.png</file>
+    <file>education.png</file>
+    <file>add.png</file>
+    <file>close.png</file>
+    <file>search.png</file>
+    <file>search_clr.png</file>
+  </qresource>
+</RCC>
