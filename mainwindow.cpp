@@ -16,6 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     ui->tabStudentFaculty->setCurrentIndex(0);
     ui->tabStudentAcademic->setCurrentIndex(0);
+    tableStudentInput();
 
     ui->widgetNewMember->hide();
     ui->widgetTeacher->hide();
@@ -132,9 +133,9 @@ void MainWindow::updateAcademicList()
 void MainWindow::updateResultList()
 {
     // Code to display the results of the students
-    Marks obj;
+    Student obj;
     QSqlQuery query;
-    query = obj.getMarksList(ui->cbxResultDept->currentText(), ui->sbxResultYear->text());
+    query = obj.getStudentList(ui->cbxResultDept->currentText(), ui->sbxResultYear->text());
     ui->cbxResultUsn->clear();
     ui->txtResultSGPA->clear();
     while(query.next()){

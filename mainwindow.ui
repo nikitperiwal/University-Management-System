@@ -104,7 +104,7 @@ font: 75 9pt &quot;MS Shell Dlg 2&quot;;
        <enum>QTabWidget::Triangular</enum>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <property name="tabBarAutoHide">
        <bool>false</bool>
