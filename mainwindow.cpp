@@ -38,7 +38,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->txtMemberEmPh->setValidator(new QRegularExpressionValidator(phRe, this));
 
     //ui->txtSubCode->setValidator(new QRegularExpressionValidator(subCodeRe, this));
-    //ui->txtStudentUSN->setValidator(new QRegularExpressionValidator(usnRe, this));
+    ui->txtStudentUSN->setValidator(new QRegularExpressionValidator(usnRe, this));
 
 }
 
