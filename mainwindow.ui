@@ -104,7 +104,7 @@ font: 75 9pt &quot;MS Shell Dlg 2&quot;;
        <enum>QTabWidget::Triangular</enum>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>1</number>
       </property>
       <property name="tabBarAutoHide">
        <bool>false</bool>
@@ -148,6 +148,9 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;
         </property>
         <property name="text">
          <string/>
+        </property>
+        <property name="maxLength">
+         <number>10</number>
         </property>
         <property name="placeholderText">
          <string>Search</string>
@@ -481,6 +484,9 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
            <string notr="true">background-color: rgb(255, 255, 255);
 font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
           </property>
+          <property name="maxLength">
+           <number>30</number>
+          </property>
           <property name="placeholderText">
            <string/>
           </property>
@@ -591,6 +597,9 @@ alternate-background-color: rgb(255, 255, 255);</string>
            <string notr="true">background-color: rgb(255, 255, 255);
 font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
           </property>
+          <property name="maxLength">
+           <number>30</number>
+          </property>
           <property name="placeholderText">
            <string/>
           </property>
@@ -695,6 +704,9 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
             <height>31</height>
            </rect>
           </property>
+          <property name="toolTip">
+           <string>eg: 1DA18CS001</string>
+          </property>
           <property name="text">
            <string>USN</string>
           </property>
@@ -738,6 +750,12 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
             <height>31</height>
            </rect>
           </property>
+          <property name="toolTip">
+           <string>eg: 1DA18CS001</string>
+          </property>
+          <property name="toolTipDuration">
+           <number>-1</number>
+          </property>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);
 font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
@@ -749,7 +767,7 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
            <string/>
           </property>
           <property name="maxLength">
-           <number>32767</number>
+           <number>10</number>
           </property>
           <property name="echoMode">
            <enum>QLineEdit::Normal</enum>
@@ -791,6 +809,9 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
            <string notr="true">background-color: rgb(255, 255, 255);
 font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
           </property>
+          <property name="maxLength">
+           <number>30</number>
+          </property>
           <property name="placeholderText">
            <string/>
           </property>
@@ -810,6 +831,9 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);
 font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="maxLength">
+           <number>30</number>
           </property>
           <property name="placeholderText">
            <string/>
@@ -2463,6 +2487,9 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
         <property name="text">
          <string/>
         </property>
+        <property name="maxLength">
+         <number>10</number>
+        </property>
         <property name="placeholderText">
          <string>Search</string>
         </property>
@@ -2711,6 +2738,9 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
           </property>
           <property name="text">
            <string/>
+          </property>
+          <property name="maxLength">
+           <number>30</number>
           </property>
           <property name="clearButtonEnabled">
            <bool>true</bool>
@@ -3039,6 +3069,9 @@ alternate-background-color: rgb(255, 255, 255);</string>
            <property name="text">
             <string/>
            </property>
+           <property name="maxLength">
+            <number>10</number>
+           </property>
            <property name="clearButtonEnabled">
             <bool>true</bool>
            </property>
@@ -3070,6 +3103,9 @@ alternate-background-color: rgb(255, 255, 255);</string>
            </property>
            <property name="text">
             <string/>
+           </property>
+           <property name="maxLength">
+            <number>30</number>
            </property>
            <property name="clearButtonEnabled">
             <bool>true</bool>
@@ -3106,6 +3142,9 @@ alternate-background-color: rgb(255, 255, 255);</string>
           </property>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="maxLength">
+           <number>30</number>
           </property>
           <property name="clearButtonEnabled">
            <bool>true</bool>
@@ -3148,6 +3187,9 @@ alternate-background-color: rgb(255, 255, 255);</string>
           </property>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="maxLength">
+           <number>30</number>
           </property>
           <property name="clearButtonEnabled">
            <bool>true</bool>
@@ -3509,6 +3551,9 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;
         <property name="text">
          <string/>
         </property>
+        <property name="maxLength">
+         <number>10</number>
+        </property>
         <property name="placeholderText">
          <string>Search</string>
         </property>
@@ -3701,6 +3746,9 @@ color: rgb(255, 255, 255);
           <property name="text">
            <string/>
           </property>
+          <property name="maxLength">
+           <number>30</number>
+          </property>
           <property name="clearButtonEnabled">
            <bool>true</bool>
           </property>
@@ -3883,6 +3931,9 @@ alternate-background-color: rgb(255, 255, 255);</string>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);</string>
           </property>
+          <property name="maxLength">
+           <number>30</number>
+          </property>
           <property name="clearButtonEnabled">
            <bool>true</bool>
           </property>
@@ -3924,6 +3975,9 @@ alternate-background-color: rgb(255, 255, 255);</string>
           </property>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="maxLength">
+           <number>30</number>
           </property>
           <property name="clearButtonEnabled">
            <bool>true</bool>
@@ -4152,6 +4206,9 @@ alternate-background-color: rgb(255, 255, 255);</string>
            <property name="text">
             <string/>
            </property>
+           <property name="maxLength">
+            <number>10</number>
+           </property>
            <property name="clearButtonEnabled">
             <bool>true</bool>
            </property>
@@ -4183,6 +4240,9 @@ alternate-background-color: rgb(255, 255, 255);</string>
            </property>
            <property name="text">
             <string/>
+           </property>
+           <property name="maxLength">
+            <number>30</number>
            </property>
            <property name="clearButtonEnabled">
             <bool>true</bool>
@@ -5155,12 +5215,12 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
    <slot>setFocus()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>271</x>
-     <y>233</y>
+     <x>275</x>
+     <y>222</y>
     </hint>
     <hint type="destinationlabel">
-     <x>401</x>
-     <y>202</y>
+     <x>244</x>
+     <y>244</y>
     </hint>
    </hints>
   </connection>
@@ -5171,12 +5231,12 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
    <slot>setFocus()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>414</x>
-     <y>204</y>
+     <x>244</x>
+     <y>246</y>
     </hint>
     <hint type="destinationlabel">
-     <x>534</x>
-     <y>204</y>
+     <x>484</x>
+     <y>223</y>
     </hint>
    </hints>
   </connection>
@@ -5187,12 +5247,12 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
    <slot>setFocus()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>534</x>
-     <y>204</y>
+     <x>484</x>
+     <y>223</y>
     </hint>
     <hint type="destinationlabel">
-     <x>664</x>
-     <y>204</y>
+     <x>624</x>
+     <y>223</y>
     </hint>
    </hints>
   </connection>
@@ -5203,12 +5263,12 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
    <slot>setFocus()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>664</x>
-     <y>204</y>
+     <x>624</x>
+     <y>223</y>
     </hint>
     <hint type="destinationlabel">
-     <x>784</x>
-     <y>204</y>
+     <x>774</x>
+     <y>223</y>
     </hint>
    </hints>
   </connection>
@@ -5219,8 +5279,8 @@ font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
    <slot>setFocus()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>784</x>
-     <y>204</y>
+     <x>774</x>
+     <y>223</y>
     </hint>
     <hint type="destinationlabel">
      <x>826</x>
