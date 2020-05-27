@@ -7,6 +7,8 @@
 #include <QObject>
 #include <QTableWidget>
 #include <QMessageBox>
+#include <QPrinter>
+#include <QPrintDialog>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -30,11 +32,13 @@ private slots:
     void on_btnStudentDelete_clicked();
     void on_btnStudentEdit_clicked();
     void on_btnStudentReject_clicked();
+    void on_btnNewStudentHelp_clicked();
 
     void on_btnAcademicInsert_clicked();
     void on_btnAcademicDelete_clicked();
     void on_btnAcademicAccept_clicked();
     void on_btnAcademicClr_clicked();
+    void on_btnAcademicHelp_clicked();
 
     void on_btnTeacherAdd_clicked();
     void on_btnTeacherAccept_clicked();
@@ -42,6 +46,7 @@ private slots:
     void on_btnTeacherDelete_clicked();
     void on_btnTeacherEdit_clicked();
     void on_btnTeacherReject_clicked();
+    void on_btnTeacherHelp_clicked();
 
     void on_btnMemberAdd_clicked();
     void on_btnMemberAccept_clicked();
@@ -49,6 +54,10 @@ private slots:
     void on_btnMemberDelete_clicked();
     void on_btnMemberEdit_clicked();
     void on_btnMemberReject_clicked();
+    void on_btnMemberHelp_clicked();
+
+    void on_btnResultHelp_clicked();
+    void on_btnResultPrint_clicked();
 
     void on_tabStudentFaculty_currentChanged(int index);
     void on_tabStudentAcademic_currentChanged(int index);
@@ -82,5 +91,7 @@ private:
     void updateResultList();
     void tableTeacherInput();
     void tableMemberInput();
+    QString createHtml();
+    void printHtml(QString htmlStream);
 };
 #endif

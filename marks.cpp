@@ -22,13 +22,20 @@ QSqlQuery Marks::addMarks()
     QSqlQuery query;
 
     // Trying to add the data in the table and storing the result in res
-    bool res = query.exec(statement);
-
-    // Sending a message to user if it has failed
-    if(!res){
-        QMessageBox msgBox(QMessageBox::Critical, "Failed to delete the record", "Member could not be deleted. Please try again!",QMessageBox::Ok);
+    if(query.exec(statement)){
+        QMessageBox msgBox(QMessageBox::Critical, "added the record", "Marks could be added!",QMessageBox::Ok);
         msgBox.exec();
     }
+    else{
+        QMessageBox msgBox(QMessageBox::Critical, "Failed to add the record", "Marks could not be added. Please try again!",QMessageBox::Ok);
+        msgBox.exec();
+    }
+
+    // Sending a message to user if it has failed
+    /*if(!res){
+        QMessageBox msgBox(QMessageBox::Critical, "Failed to add the record", "Marks could not be added. Please try again!",QMessageBox::Ok);
+        msgBox.exec();
+    }*/
     return query;
 }
 

@@ -1,6 +1,8 @@
 QT       += core gui
 QT       += sql
 QT       += widgets
+QT       += printsupport
+QTPLUGIN += windowsprintersupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 

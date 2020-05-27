@@ -12,5 +12,8 @@
         <file>Resources/search.png</file>
         <file>Resources/search_clr.png</file>
         <file>Resources/warning.png</file>
+        <file>Resources/help.png</file>
+        <file>Resources/helpQM.png</file>
+        <file>Resources/print.png</file>
     </qresource>
 </RCC>
