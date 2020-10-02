@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     Database db;
     db.initDb();
 
-    // Creating an object, w from the class 'MainWindow'.
+    // Creating an object w from the class 'MainWindow'.
     MainWindow w;
     w.show();
     return a.exec();
